@@ -1,12 +1,12 @@
 public class Person {
-    String name = "Mohammed";
-    int age =24;
+    String name;
+    int age;
     /*
     * this is the constructor which is a special type of method that initialize instance variables.
     * by adding parameters to the constructor we can pass the values when creating the new object.*/
-    public Person (String Name , int Age) {
-        name = Name;
-        age = Age;
+    public Person (String name , int age) {
+        this.name = name;
+        this.age = age;
     }
     /*
     * this is the hello method it has a return type of void so it doesn't return a value
